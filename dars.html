@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARS - Ropa Deportiva</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="pagina">
+    <header class="mi-banner" id="INICIO">
+      <nav class="navbar">
+        <a href="#INICIO" class="logo">LOGO</a>
+        <div class="nav-links">
+          <a href="#INICIO">INICIO</a>
+          <a href="#NOSOTROS">NOSOTROS</a>
+          <a href="#PRODUCTOS">PRODUCTOS</a>
+          <a href="#CONTACTO">CONTACTO</a>
+        </div>
+      </nav>
+
+      <section class="content-header">
+        <h1 class="title">DARS</h1>
+        <p>Ropa deportiva diseñada para acompañarte en cada movimiento con comodidad, estilo y rendimiento.</p>
+        <a href="#NOSOTROS" class="btn">Conoce más</a>
+      </section>
+    </header>
+
+    <section class="panel nosotros" id="NOSOTROS">
+      <h2 class="heading">NOSOTROS</h2>
+      <p>En DARS, nuestra misión es proporcionar ropa deportiva de alta calidad que combine estilo, comodidad y rendimiento. Nos esforzamos por crear prendas que inspiren a los atletas a alcanzar su máximo potencial, brindando confianza y libertad de movimiento en cada entrenamiento y competencia.</p>
+      <a href="#PRODUCTOS" class="btn">Saber más</a>
+    </section>
+
+    <section class="panel productos" id="PRODUCTOS">
+      <div class="producto-encabezado">
+        <h2 class="heading">PRODUCTOS</h2>
+        <p>Explora nuestras colecciones con tecnología, diseño y comodidad para cada entrenamiento.</p>
+      </div>
+      <div class="caja-contenedor">
+        <div class="caja">
+          <img src="Imagen 1P.jpng.png" alt="Producto 1">
+        </div>
+        <div class="caja">
+          <img src="Imagen 2P.jpng.png" alt="Producto 2">
+        </div>
+        <div class="caja">
+          <img src="Imagen 3P.jpng.png" alt="Producto 3">
+        </div>
+      </div>
+    </section>
+
+    <section class="panel contacto" id="CONTACTO">
+      <h2 class="heading">CONTÁCTENOS</h2>
+      <p>¿Tienes preguntas sobre nuestros productos? Escríbenos y nos pondremos en contacto contigo.</p>
+
+      <form class="formulario-contacto" action="#" method="post">
+        <div class="campo-formulario">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" autocomplete="name" required>
+        </div>
+
+        <div class="campo-formulario">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="nombre@ejemplo.com" autocomplete="email" required>
+        </div>
+
+        <div class="campo-formulario">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+57 300 000 0000" autocomplete="tel">
+        </div>
+
+        <div class="campo-formulario">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos cómo podemos ayudarte" required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Enviar mensaje</button>
+      </form>
+
+      <p class="telefono-contacto">También puedes llamarnos: <a href="tel:+573007821363">+57 300 782 1363</a></p>
+    </section>
+  </div>
+</body>
+</html>
